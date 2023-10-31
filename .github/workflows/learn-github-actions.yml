@@ -2,7 +2,7 @@ name: CI
 'on':
   push:
     branches:
-      - pdf
+      - html
 jobs:
   build-dita:
     name: Build DITA
@@ -14,10 +14,10 @@ jobs:
         uses: dita-ot/dita-ot-action@master
         with:
           input: document.ditamap
-          transtype: pdf
+          transtype: html5
           output-path: out
       - name: Upload DITA Output to a ZIP file
         uses: actions/upload-artifact@v3
         with:
           name: dita-artifact
-          path: 'out'
+          path: 'out-html'
