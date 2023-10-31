@@ -2,7 +2,7 @@ name: CI
 'on':
   push:
     branches:
-      - main
+      - pdf
 jobs:
   build-dita:
     name: Build DITA
