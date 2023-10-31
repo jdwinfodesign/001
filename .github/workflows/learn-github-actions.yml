@@ -20,4 +20,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: dita-artifact
-          path: 'out-html'
+          path: 'out-html' #must be same as 'output-path' 
