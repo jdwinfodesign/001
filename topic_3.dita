@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="topic_2">
-	<title>Another DITA Topic</title>
+<topic id="topic_3">
+	<title>This Topic...</title>
 	<body>
-		<p>Once you pop, you just can't stop.</p>
+		<p>Yet another topic.</p>
 	</body>
 </topic>
