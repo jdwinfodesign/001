@@ -10,11 +10,11 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v4
-      - name: Build PDF
+      - name: Build HTML5
         uses: dita-ot/dita-ot-action@master
         with:
           input: document.ditamap
-          transtype: pdf
+          transtype: html5
           output-path: out
       - name: Upload DITA Output to a ZIP file
         uses: actions/upload-artifact@v3
